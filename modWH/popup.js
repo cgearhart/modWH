@@ -22,10 +22,8 @@ function bindPageId(pageKey) {
 
 
 function activate() {
-	storage.get(null, function(items) { console.log(items) });
 	chrome.tabs.insertCSS(null, {file: "modWH.css"});
 	chrome.tabs.executeScript(null, {file: "modWH.js"});
-	storage.get(null, function(items) { console.log(items) });
 }
 
 
