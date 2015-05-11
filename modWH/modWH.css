@@ -1,0 +1,13 @@
+.btn_cell {
+	width: 40px;
+	vertical-align: top;
+	padding-top: 25px;
+}
+
+.closed {
+	display: none;
+}
+
+.reply {
+	display: none;
+}

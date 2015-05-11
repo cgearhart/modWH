@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="popup.js"></script>
+	</head>
+	<body style="width:300px">
+		<table id="content">
+			<tbody>
+				<tr>
+					<td colspan="3">
+						<h3>modWH</h3>
+						<p>modWH adds controls to Hacker News Who's Hiring threads to hide each top-level comment (job posting), and hides all replies on the page. The effects are persisted in local storage -- although the extension must be reactivated between sessions.</p>
+						<p>Choose "Activate" to reformat the current page. "Clear" removes all local storage records for the current page, and "Clear All" removes all records for the entire extension.</p>
+					</td>
+				</tr>
+				<tr style="text-align:center;">
+					<td>
+						<button id="activate_btn" type="button">Activate</button>
+					</td>
+					<td>
+						<button id="clear_btn" type="button">Clear</button>
+					</td>
+					<td>
+						<button id="clearall_btn" type="button">Clear All</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="message" style="display:none;">
+			<h3 id="messageText"></h3>
+		</div>
+	</body>
+</html>

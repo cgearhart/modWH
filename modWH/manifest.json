@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+
+	"name": "modWH",
+	"description": "Improve the usability of the Hacker News Who's Hiring thread by hiding replies and making job posts collapsible.",
+	"version": "1.0",
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"page_action": {
+		"default_icon": "icon38.png",
+		"default_title": "Click to enhance Who's Hiring page.",
+		"default_popup": "popup.html"
+	},	
+	"permissions": [
+		"declarativeContent",
+		"activeTab",
+		"storage",
+		"unlimitedStorage"
+	]
+}
